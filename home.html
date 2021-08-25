@@ -1,0 +1,31 @@
+<div
+  style="
+    background-image: url('https://previews.123rf.com/images/drekhann/drekhann1708/drekhann170800094/84589437-cute-cartoon-cats-and-dogs-with-different-emotions-sticker-collection-set-of-doodle-emoji-and-emotic.jpg');
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.54);
+    background-blend-mode: overlay;
+  "
+>
+  <h1 style="text-align: center">
+    Welcome to cat world
+    <button type="button" onclick="playsound()">Click Me!</button>
+  </h1>
+  <img
+    src="https://wallpaperaccess.com/full/1209275.jpg"
+    style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+  />
+</div>
+
+<!-- https://orangefreesounds.com/wp-content/uploads/2021/05/Street-cat-meowing-cat-noises.mp3?_=1
+ -->
+
+<script>
+  var snd = new Audio(
+    "https://orangefreesounds.com/wp-content/uploads/2021/05/Street-cat-meowing-cat-noises.mp3?_=1"
+  );
+
+  function playsound() {
+    snd.play();
+  }
+</script>
